@@ -1,0 +1,58 @@
+.your-team-container{
+    height: 50vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+.your-team-container h5 {
+    text-shadow: 0 0 1px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+}
+.summoner-card-wrapper{
+    height: 42vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.summoner-wrapper{
+    height: 72px;
+    width: 165px;
+    background-color: #222021;
+    border: 2px solid #474546;
+    border-radius: 1.5px;
+}
+.summoner-wrapper h6 {
+    font-size: .7em;
+}
+.summoner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.character-icon{
+    height: 50px;
+    width: 50px;
+    background-color: #070D13;
+    float: left;
+    border: 2px solid #474546;
+    border-radius: 1.5px;
+}
+.spell-container{
+    display: flex;
+    flex-direction: column;
+}
+.summoner-spell{
+    height: 25px;
+    width: 25px;
+    background-color: #070D13;
+    border: 2px solid #474546;
+    border-radius: 1.5px;
+    margin: 1.5px;
+}
+.summoner-name{
+    text-align: center;
+}
